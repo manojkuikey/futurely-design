@@ -1,0 +1,56 @@
+<!-- Header/Banner with SVG Logo -->
+<header>
+    <div class="logo">
+        <a href="/index.html">
+            <svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background elements -->
+                <defs>
+                    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#2ecc71" />
+                        <stop offset="100%" stop-color="#3498db" />
+                    </linearGradient>
+                </defs>
+
+                <!-- Brain/circuit combined symbol -->
+                <path d="M40 15 C25 15, 15 25, 15 40 C15 55, 25 65, 40 65 C55 65, 65 55, 65 40 C65 25, 55 15, 40 15"
+                      fill="none" stroke="url(#techGradient)" stroke-width="2.5" />
+
+                <!-- Circuit paths inside brain -->
+                <path d="M25 30 L40 30 L40 50 L55 50" fill="none" stroke="#2ecc71" stroke-width="1.5" />
+                <path d="M25 50 L35 50 L35 35 L55 35" fill="none" stroke="#3498db" stroke-width="1.5" />
+                <circle cx="25" cy="30" r="3" fill="#2ecc71" />
+                <circle cx="55" cy="35" r="3" fill="#3498db" />
+                <circle cx="25" cy="50" r="3" fill="#2ecc71" />
+                <circle cx="55" cy="50" r="3" fill="#3498db" />
+                <circle cx="40" cy="40" r="5" fill="url(#techGradient)" />
+
+                <!-- Binary/Data flow elements -->
+                <text x="28" cy="28" font-family="Courier New" font-size="7" fill="#34495e">10</text>
+                <text x="48" cy="52" font-family="Courier New" font-size="7" fill="#34495e">01</text>
+
+                <!-- Connection to text -->
+                <path d="M65 40 L85 40" stroke="#3498db" stroke-width="1.5" stroke-dasharray="2,2" />
+                <circle cx="85" cy="40" r="2" fill="#3498db" />
+
+                <!-- Text elements -->
+                <text x="95" y="45" font-family="Arial" font-size="24" font-weight="bold" fill="#2c3e50">Futurely</text>
+                <text x="205" y="45" font-family="Arial" font-size="24" font-weight="bold" fill="#3498db">.design</text>
+
+                <!-- Tagline -->
+                <text x="95" y="65" font-family="Arial" font-size="12" fill="#7f8c8d">AI & Tech Solutions of Tomorrow</text>
+
+                <!-- Tech elements -->
+                <rect x="275" y="25" width="15" height="2" fill="#2ecc71" />
+                <rect x="275" y="30" width="10" height="2" fill="#2ecc71" />
+                <rect x="275" y="35" width="20" height="2" fill="#2ecc71" />
+            </svg>
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="/index.html" class="nav-home">Home</a></li>
+            <li><a href="#ideas" class="nav-ideas">Ideas</a></li>
+            <li><a href="#about" class="nav-about">About Me</a></li>
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1350 261.174 1070.91 812.084" width="1070.91px" height="812.084px">
+    <defs>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-903.9" cy="435.778" r="400" id="gradient-3" gradientTransform="matrix(1, 0, 0, 1, 0, -9)">
+            <stop offset="0" style="stop-color: rgb(89.412% 64.706% 64.706%)"/>
+            <stop offset="1" style="stop-color: rgb(56.932% 34.83% 35.259%)"/>
+        </radialGradient>
+        <symbol id="mobile-app" viewBox="0 0 50 80">
+            <rect x="10" y="5" width="30" height="70" rx="3" fill="#fff" stroke="#333" stroke-width="2"/>
+            <rect x="12" y="10" width="26" height="50" fill="#eee" stroke="#ccc" stroke-width="1"/>
+            <circle cx="25" cy="68" r="3" fill="#eee" stroke="#ccc" stroke-width="1"/>
+            <rect x="15" y="15" width="20" height="4" rx="1" fill="#0078D7"/>
+            <rect x="15" y="22" width="20" height="4" rx="1" fill="#34A853"/>
+            <rect x="15" y="29" width="20" height="4" rx="1" fill="#0078D7"/>
+            <rect x="15" y="36" width="20" height="4" rx="1" fill="#34A853"/>
+        </symbol>
+        <symbol id="web-interface" viewBox="0 0 80 60">
+            <rect x="5" y="5" width="70" height="50" rx="2" fill="#fff" stroke="#333" stroke-width="2"/>
+            <rect x="5" y="5" width="70" height="8" rx="2" fill="#eee" stroke="#333" stroke-width="1"/>
+            <circle cx="10" cy="9" r="2" fill="#ff6b6b"/>
+            <circle cx="16" cy="9" r="2" fill="#FFEB3B"/>
+            <circle cx="22" cy="9" r="2" fill="#34A853"/>
+            <rect x="10" y="18" width="60" height="32" fill="#eee" stroke="#ccc" stroke-width="1"/>
+            <rect x="15" y="22" width="50" height="4" rx="1" fill="#0078D7"/>
+            <rect x="15" y="30" width="50" height="4" rx="1" fill="#34A853"/>
+            <rect x="15" y="38" width="30" height="4" rx="1" fill="#0078D7"/>
+        </symbol>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-613.532" cy="427.445" r="45.998" id="gradient-5" spreadMethod="reflect" gradientTransform="matrix(0.790827, 0, 0, 0.834566, -149.572247, 80.487298)">
+            <stop offset="0" style="stop-color: rgb(20% 20% 20%)"/>
+            <stop offset="1" style="stop-color: rgb(12.948% 12.948% 12.948%)"/>
+        </radialGradient>
+        <linearGradient gradientUnits="userSpaceOnUse" x1="-907" y1="537.377" x2="-907" y2="637.377" id="gradient-2" gradientTransform="matrix(1, 0, 0, 1, 0, -8)">
+            <stop offset="0" style="stop-color:#0078D7;stop-opacity:1"/>
+            <stop offset="1" style="stop-color:#0078D7;stop-opacity:0.6"/>
+        </linearGradient>
+        <linearGradient gradientUnits="userSpaceOnUse" x1="-907" y1="537.377" x2="-907" y2="637.377" id="gradient-0" spreadMethod="pad" gradientTransform="matrix(1, 0, 0, 1, 0, -8)">
+            <stop offset="0" style="stop-color: rgb(0% 47.059% 84.314%)"/>
+            <stop offset="1" style="stop-color: rgb(0% 29.95% 51.741%)"/>
+        </linearGradient>
+        <symbol id="api-gateway" viewBox="0 0 100 60">
+            <rect x="10" y="10" width="80" height="40" rx="5" fill="#fff" stroke="#333" stroke-width="2"/>
+            <text x="23" y="35" font-family="Arial" font-size="12" fill="#333" style="white-space: pre;">API Gateway</text>
+            <path d="M10,25 L90,25" stroke="#ccc" stroke-width="1" stroke-dasharray="5,3"/>
+            <rect x="20" y="15" width="10" height="5" rx="1" fill="#0078D7"/>
+            <rect x="35" y="15" width="10" height="5" rx="1" fill="#34A853"/>
+            <rect x="50" y="15" width="10" height="5" rx="1" fill="#0078D7"/>
+            <rect x="65" y="15" width="10" height="5" rx="1" fill="#34A853"/>
+        </symbol>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-903.7" cy="743.174" r="400" id="gradient-1">
+            <stop offset="0" style="stop-color:#34A853;stop-opacity:1"/>
+            <stop offset="1" style="stop-color:#34A853;stop-opacity:0.6"/>
+        </radialGradient>
+        <symbol id="ai-stack" viewBox="0 0 80 80">
+            <rect x="15" y="10" width="50" height="10" rx="2" fill="#0078D7" stroke="#333" stroke-width="1"/>
+            <rect x="15" y="23" width="50" height="10" rx="2" fill="#34A853" stroke="#333" stroke-width="1"/>
+            <rect x="15" y="36" width="50" height="10" rx="2" fill="#0078D7" stroke="#333" stroke-width="1"/>
+            <rect x="15" y="49" width="50" height="10" rx="2" fill="#34A853" stroke="#333" stroke-width="1"/>
+            <rect x="15" y="62" width="50" height="10" rx="2" fill="#0078D7" stroke="#333" stroke-width="1"/>
+            <text x="20" y="18" font-family="Arial" font-size="8" fill="white" style="white-space: pre;">Agentic AI</text>
+            <text x="20" y="31" font-family="Arial" font-size="8" fill="white" style="white-space: pre;">ML Processing</text>
+            <text x="20" y="44" font-family="Arial" font-size="8" fill="white" style="white-space: pre;">NLP/LLM</text>
+            <text x="20" y="57" font-family="Arial" font-size="8" fill="white" style="white-space: pre;">Context Engine</text>
+            <text x="20" y="70" font-family="Arial" font-size="8" fill="white" style="white-space: pre;">Reasoning</text>
+        </symbol>
+        <symbol id="security-privacy" viewBox="0 0 60 60">
+            <path d="M30,10 L50,20 L50,40 L30,50 L10,40 L10,20 Z" fill="#fff" stroke="#333" stroke-width="2"/>
+            <circle cx="30" cy="30" r="8" fill="#eee" stroke="#333" stroke-width="1"/>
+            <rect x="28" y="25" width="4" height="10" rx="1" fill="#0078D7"/>
+            <circle cx="30" cy="22" r="1" fill="#0078D7"/>
+        </symbol>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-903.7" cy="923.174" r="400" id="gradient-4">
+            <stop offset="0" style="stop-color: rgb(74.51% 74.51% 74.51%)"/>
+            <stop offset="1" style="stop-color: rgb(42.894% 42.894% 42.894%)"/>
+        </radialGradient>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+        <marker id="bidirectional" markerWidth="12" markerHeight="8" refX="6" refY="4" orient="auto">
+            <polygon points="12 4, 0 0, 4 4, 0 8" fill="#666"/>
+        </marker>
+        <filter id="a" x="-.068536" y="-.10456" width="1.1371" height="1.2091" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="13.463792"/>
+        </filter>
+    </defs>
+    <rect width="1070.91" height="743.733" fill="#f9f9f9" x="-1350" y="329.525" style=""/>
+    <text x="-903.74" y="283.174" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" style="white-space: pre; font-size: 24px;">Agentic AI Humanoid System Architecture</text>
+    <text x="-903.74" y="313.174" font-family="Arial" font-size="16" text-anchor="middle" fill="#666" style="white-space: pre; font-size: 16px;">Open Ecosystem for Intelligent Humanoid Assistance</text>
+    <rect x="-1303.9" y="366.778" width="800" height="120" rx="10" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5" style="fill: url(&quot;#gradient-3&quot;);"/>
+    <text style="font-family: Arial; font-weight: 700; white-space: pre; font-size: 16px;" x="-1289.6" y="383.643">Client Layer</text>
+    <use width="60" height="80" href="#mobile-app" transform="matrix(1.2608610391616821, 0, 0, 0.9840829968452454, -1261.88623046875, 393.9526672363281)" style=""/>
+    <use width="80" height="60" href="#web-interface" transform="matrix(1, 0, 0, 1, -1109.818603515625, 411.5242004394531)"/>
+    <rect x="-671.14" y="409.668" width="72.753" height="55.1" rx="5" stroke-width="1" style="fill: rgb(237, 237, 237); shape-rendering: crispedges; stroke: url(&quot;#gradient-5&quot;);"/>
+    <text x="-631.38" y="479.019" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Voice Assistants</text>
+    <text x="-1225.1" y="480.176" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Mobile App</text>
+    <text x="-1069.5" y="481.552" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Web Interface</text>
+    <text x="-923.29" y="482.987" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Humanoid</text>
+    <rect x="-1307" y="529.377" width="800" height="100" rx="10" stroke-width="2" style="stroke: url(&quot;#gradient-0&quot;); fill: url(&quot;#gradient-2&quot;); paint-order: fill;"/>
+    <text x="-1305.6" y="548.098" font-family="Arial" font-size="16" fill="#fff" font-weight="bold" style="white-space: pre; font-size: 16px;">API Gateway &amp; User Control Layer</text>
+    <use width="100" height="50" href="#api-gateway" transform="matrix(1.2895159721374512, 0, 0, 1.2773940563201904, -1282.693359375, 549.3046264648438)" style=""/>
+    <rect x="-712.6" y="563.387" width="120" height="50" rx="5" fill="#fff" stroke="#333" stroke-width="1"/>
+    <text x="-655.97" y="584.285" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Privacy Controls</text>
+    <text x="-654.07" y="601.694" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">Granular Permissions</text>
+    <rect x="-1091.5" y="563.063" width="120" height="50" rx="5" fill="#fff" stroke="#333" stroke-width="1"/>
+    <text x="-1031.5" y="590.063" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Device Management</text>
+    <text x="-1024.5" y="605.063" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">Local Processing</text>
+    <rect x="-919.74" y="563.92" width="120" height="50" rx="5" fill="#fff" stroke="#333" stroke-width="1"/>
+    <text x="-859.74" y="590.92" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Data Boundaries</text>
+    <text x="-859.74" y="605.92" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">Local/Cloud Separation</text>
+    <rect x="-1303.7" y="663.174" width="800" height="160" rx="10" stroke="#34A853" stroke-width="2" style="fill: url(&quot;#gradient-1&quot;);"/>
+    <text x="-1291.7" y="678.956" font-family="Arial" font-size="16" fill="#fff" font-weight="bold" style="white-space: pre; font-size: 16px;">Core Services Layer</text>
+    <use width="80" height="100" href="#ai-stack" transform="matrix(1.6279879808425903, 0, 0, 1.422376036643982, -1305.74169921875, 677.17431640625)" style=""/>
+    <text x="-1222" y="811.096" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">AI/ML Stack</text>
+    <rect x="-1123.7" y="723.174" width="100" height="70" rx="5" fill="#fff" stroke="#333" stroke-width="1"/>
+    <text x="-1073.7" y="753.174" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Context Engine</text>
+    <text x="-1073.7" y="768.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">Location Awareness</text>
+    <text x="-1073.7" y="783.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">User Preferences</text>
+    <rect x="-983.73" y="723.174" width="100" height="70" rx="5" fill="#fff" stroke="#333" stroke-width="1"/>
+    <text x="-933.74" y="753.174" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Task Planning</text>
+    <text x="-933.74" y="783.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">Goal Management</text>
+    <rect x="-848.5" y="725.345" width="109.055" height="66.44" rx="5" fill="#fff" stroke="#333" stroke-width="1" style=""/>
+    <text x="-793.74" y="753.174" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Language Services</text>
+    <text x="-793.74" y="768.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">Translation</text>
+    <text x="-793.74" y="783.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">NLP Processing</text>
+    <use width="60" height="60" href="#security-privacy" transform="matrix(1, 0, 0, 1, -683.74169921875, 728.17431640625)"/>
+    <text x="-653.74" y="798.174" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Security &amp; Privacy</text>
+    <rect x="-1303.7" y="863.174" width="800" height="120" rx="10" stroke-width="2" style="fill: url(&quot;#gradient-4&quot;); stroke: rgb(118, 118, 118);"/>
+    <text x="-1291.5" y="877.329" font-family="Arial" font-size="16" fill="#fff" font-weight="bold" style="white-space: pre; font-size: 16px;">Data Layer (Privacy-Centric)</text>
+    <rect x="-1269.7" y="903.174" width="160" height="60" rx="5" fill="#fff" stroke="#333" stroke-width="1"/>
+    <text x="-1189.7" y="928.17" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" style="white-space: pre; font-size: 12px;">Secure Local Storage</text>
+    <text x="-1189.7" y="943.17" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">Financial, Medical, Personal Data</text>
+    <rect x="-1053.7" y="903.174" width="120" height="60" rx="5" fill="#fff" stroke="#333" stroke-width="1"/>
+    <text x="-993.73" y="923.17" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Mobile Vault</text>
+    <text x="-993.73" y="938.17" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">Credentials &amp; Tokens</text>
+    <rect x="-903.74" y="903.174" width="120" height="60" rx="5" fill="#fff" stroke="#333" stroke-width="1"/>
+    <text x="-843.74" y="923.17" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Cloud Storage</text>
+    <text x="-843.74" y="938.17" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">Anonymized Models Only</text>
+    <rect x="-723.74" y="903.174" width="120" height="60" rx="5" fill="#fff" stroke="#333" stroke-width="1"/>
+    <text x="-663.74" y="923.17" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Data Governance</text>
+    <text x="-663.74" y="938.17" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">User Control Panel</text>
+    <line x1="-1223.7" y1="494.734" x2="-1223.7" y2="534.068" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,3" style="stroke: rgb(62, 171, 91);"/>
+    <line x1="-1029.2" y1="498.326" x2="-1029.2" y2="563.711" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,3" style="stroke: rgb(62, 171, 91);"/>
+    <line x1="-916.57" y1="497.085" x2="-916.57" y2="563.644" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,3" style="stroke: rgb(62, 171, 91);"/>
+    <line x1="-803.64" y1="497.384" x2="-803.74" y2="563.174" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,3" style="fill: rgb(44, 92, 57); stroke: rgb(62, 171, 91);"/>
+    <line x1="-656.89" y1="497.582" x2="-657.65" y2="561.243" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,3" style="fill: rgb(150, 94, 95); stroke: rgb(62, 171, 91);"/>
+    <line x1="-1252.7" y1="632.295" x2="-1252.7" y2="661.094" stroke-width="2" marker-end="url(#arrowhead)" style="stroke: rgb(2, 121, 215);"/>
+    <line x1="-897.2" y1="629.507" x2="-898.34" y2="723.174" stroke-width="2" marker-end="url(#arrowhead)" style="stroke: rgb(2, 121, 215);"/>
+    <line x1="-654.98" y1="736.856" x2="-655.81" y2="634.631" stroke-width="2" marker-end="url(#arrowhead)" style="stroke: rgb(2, 121, 215); transform-origin: -655.395px 685.744px;" transform="matrix(-1, 0, 0, -1, 0, 0)"/>
+    <line x1="-1259.7" y1="797.66" x2="-1258.9" y2="865.113" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)" style="transform-origin: -1259.3px 831.386px;"/>
+    <line x1="-970.73" y1="904.466" x2="-969.71" y2="827.43" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)" style="transform-origin: -970.22px 865.948px;" transform="matrix(-1, 0, 0, -1, 0, 0)"/>
+    <line x1="-843.74" y1="903.174" x2="-843.19" y2="824.527" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)" style="transform-origin: -843.465px 863.851px;" transform="matrix(-1, 0, 0, -1, 0, 0)"/>
+    <line x1="-674.74" y1="903.174" x2="-674.47" y2="826.114" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)" style="transform-origin: -674.605px 864.644px;" transform="matrix(-1, 0, 0, -1, 0, 0)"/>
+    <line x1="-1102.5" y1="933.17" x2="-1061.1" y2="933.17" stroke="#666" stroke-width="2" marker-start="url(#bidirectional)" marker-end="url(#bidirectional)" style=""/>
+    <text style="font-family: Arial; font-size: 10px; white-space: pre;" x="-1104.7" y="923.924">Encrypted</text>
+    <rect x="-477.93" y="621.174" width="187.001" height="140" rx="5" fill="#fff" stroke="#0078D7" stroke-width="1" stroke-dasharray="3,3" style=""/>
+    <text x="-518.74" y="663.174" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" style="white-space: pre; font-size: 12px;" transform="matrix(1.1812360286712646, 0, 0, 1, 230.18597412109375, -22)">Privacy-First Architecture</text>
+    <text x="-518.74" y="683.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;" transform="matrix(1.1812360286712646, 0, 0, 1, 230.18597412109375, -22)">• All sensitive data stays local</text>
+    <text x="-518.74" y="703.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;" transform="matrix(1.1812360286712646, 0, 0, 1, 230.18597412109375, -22)">• Financial transactions</text>
+    <text x="-518.74" y="718.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;" transform="matrix(1.1812360286712646, 0, 0, 1, 230.18597412109375, -22)"> processed on-device only</text>
+    <text x="-518.74" y="738.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;" transform="matrix(1.1812360286712646, 0, 0, 1, 230.18597412109375, -22)">• Cloud receives only</text>
+    <text x="-518.74" y="753.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;" transform="matrix(1.1812360286712646, 0, 0, 1, 230.18597412109375, -22)"> anonymized patterns</text>
+    <text x="-518.74" y="773.174" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;" transform="matrix(1.1812360286712646, 0, 0, 1, 230.18597412109375, -22)">• User-controlled data</text>
+    <text x="-390.92" y="785.625" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;"> sharing policies</text>
+    <rect x="-475.92" y="790.625" width="170" height="120" rx="5" fill="#fff" stroke="#34A853" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="-390.92" y="810.625" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" style="white-space: pre; font-size: 12px;">User Control Panel</text>
+    <text x="-390.92" y="830.625" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">• One-tap privacy toggles</text>
+    <text x="-390.92" y="850.625" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">• Data categories visualization</text>
+    <text x="-390.92" y="870.625" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">• Usage transparency logs</text>
+    <text x="-390.92" y="890.625" font-family="Arial" font-size="10" text-anchor="middle" style="white-space: pre; font-size: 10px;">• Secure data removal options</text>
+    <rect x="-938.06" y="379.838" width="32.845" height="23.165" rx="5" fill="#fff" stroke="#333" stroke-width="1" style=""/>
+    <rect x="907.615" y="383.104" width="28.16" height="12.747" fill="#bbdefb" stroke="#1976d2" rx="5" ry="5" style="" transform="matrix(-1, 0, 0, 1, 0, 0)"/>
+    <rect x="926.05" y="386.887" width="1.969" height="3.742" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(-1, 0, 0, 1, 0, 0)"/>
+    <rect x="914.666" y="387.002" width="1.969" height="3.742" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(-1, 0, 0, 1, 0, 0)"/>
+    <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="-921.64" cy="399.39" rx="7.635" ry="1.436"/>
+    <rect x="-929.42" y="404.076" width="16.88" height="8.338" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+    <rect x="-929.09" y="422.028" width="2.75" height="3.68" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+    <rect x="-405.72" y="108.707" width="26.179" height="3.731" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" transform="matrix(0.9062769412994385, -0.4226830303668976, 0, 1.1034150123596191, -590.1716918945312, 127.84237670898438)"/>
+    <rect x="-351.42" y="129.509" width="22.272" height="3.852" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); transform-origin: -340.284px 131.435px;" transform="matrix(0.80332214, 0.59554511, -0.6077311, 0.7942878, -557.68372885, 289.43955762)"/>
+    <rect x="-930.84" y="443.115" width="4.362" height="27.544" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);"/>
+    <rect x="-918.96" y="443.542" width="4.509" height="27.721" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);"/>
+    <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="-939.45" cy="391.152" rx="1.586" ry="3.151"/>
+    <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="-902.41" cy="390.908" rx="1.586" ry="3.151"/>
+    <g transform="matrix(0.13821500539779663, 0, 0, 0.1272439956665039, -814.3215942382812, 403.7569885253906)" style="">
+        <g transform="translate(0 -552.36)">
+            <rect y="552.36" width="650" height="500" fill="#6dd4c7" style="shape-rendering: crispedges;"/>
+        </g>
+        <rect x="89.262" y="110.62" width="471.48" height="309.03" ry="0" fill-opacity=".090426" filter="url(#a)" style="shape-rendering: crispedges;"/>
+        <rect x="89.262" y="95.484" width="471.48" height="309.03" ry="0" fill="#fff" style="shape-rendering: crispedges;"/>
+        <rect x="89.262" y="95.484" width="471.48" height="16.293" fill="#ededed" style="shape-rendering: crispedges;"/>
+        <circle cx="97.408" cy="103.63" r="2.812" fill="#62d5e9" style="shape-rendering: crispedges;"/>
+        <circle cx="114.28" cy="103.63" r="2.812" fill="#ff8d72" style="shape-rendering: crispedges;"/>
+        <circle cx="105.84" cy="103.63" r="2.812" fill="#58f9a2" style="shape-rendering: crispedges;"/>
+        <circle cx="463.3" cy="250" r="60.822" fill="#ff8d72" stroke="#ededed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6513" style="shape-rendering: crispedges;"/>
+        <path d="m445.39 221.08c-2.7375 0-4.9922 2.2527-4.9922 4.9902v0.39844h-4.8633c-2.7373 0-4.9902 2.2549-4.9902 4.9922v42.459c0 1.7109 0.88066 3.2322 2.209 4.1328 0.26566 0.18012 0.54762 0.33589 0.8457 0.46289 0.59658 0.2544 1.2506 0.39453 1.9356 0.39453h55.52c2.0524 0 3.8334-1.2671 4.5957-3.0547 2.4e-4 -5.7e-4 -2.4e-4 -1e-3 0-2e-3 0.25397-0.59615 0.39453-1.2492 0.39453-1.9336v-42.459c0-2.7375-2.253-4.9922-4.9902-4.9922h-25.975v-0.39844c0-2.7373-2.2527-4.9902-4.9902-4.9902h-14.699zm0 3.1777h14.699c1.0315 0 1.8125 0.7808 1.8125 1.8125v1.9883a1.5893 1.5893 0 0 0 1.5879 1.5898h27.564c1.0317 0 1.8125 0.78103 1.8125 1.8125v2.3516c-0.56447-0.22373-1.1724-0.35742-1.8125-0.35742h-55.52c-0.64007 0-1.248 0.13369-1.8125 0.35742v-2.3516c0-1.0317 0.78079-1.8125 1.8125-1.8125h6.4531a1.5893 1.5893 0 0 0 1.5898 -1.5898v-1.9883c0-1.0315 0.781-1.8125 1.8125-1.8125zm-9.8555 12.375h55.52c1.0316 0 1.8125 0.78091 1.8125 1.8125v35.475c0 1.0315-0.78104 1.8125-1.8125 1.8125h-55.52c-0.12829 0-0.25354-0.012-0.37305-0.0352-6.2e-4 -1.2e-4 -1e-3 1.2e-4 -2e-3 0-0.84056-0.16358-1.4375-0.87471-1.4375-1.7774v-35.475c0-1.0316 0.7809-1.8125 1.8125-1.8125z" color="#000000" color-rendering="auto" fill="#fff" image-rendering="auto" solid-color="#000000" style="isolation: auto; mix-blend-mode: normal; text-decoration-color: rgb(0, 0, 0); text-decoration-line: none; text-decoration-style: solid; text-indent: 0px; text-transform: none; white-space: normal; shape-rendering: crispedges;"/>
+        <circle cx="186.7" cy="250" r="60.822" fill="#62d5e9" stroke="#ededed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6513" style="shape-rendering: crispedges;"/>
+        <g transform="matrix(.38419 0 0 .38419 89.734 245.67)" fill="#fff">
+            <path d="m158.06-63.99c-6.7428 0-12.27 5.5418-12.27 12.285v110.45c0 6.7428 5.5277 12.271 12.27 12.271h188.67c6.7428 0 12.27-5.5277 12.27-12.271v-110.45c0-6.7428-5.5277-12.285-12.27-12.285h-188.67zm0 7.0274h188.67c2.9712 0 5.2431 2.2853 5.2431 5.2572v110.45c0 2.9719-2.2719 5.2431-5.2431 5.2431h-188.67c-2.9712 0-5.2431-2.2712-5.2431-5.2431v-110.45c0-2.9719 2.2719-5.2572 5.2431-5.2572z" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="isolation: auto; mix-blend-mode: normal; text-decoration-color: rgb(0, 0, 0); text-decoration-line: none; text-decoration-style: solid; text-indent: 0px; text-transform: none; white-space: normal; shape-rendering: crispedges;"/>
+            <path d="m134.55 73.143c0 7.4181 5.1221 13.391 11.482 13.391h212.73c6.3604 0 11.482-5.9725 11.482-13.391h-235.69zm100.29 2.9492h35.102c0.5416 0 0.97656 0.4367 0.97656 0.97852 0 0.54111-0.43496 0.97656-0.97656 0.97656h-35.102c-0.5416 0-0.97852-0.43475-0.97852-0.97656 0-0.54111 0.43693-0.97852 0.97852-0.97852z" style="shape-rendering: crispedges;"/>
+        </g>
+        <circle cx="325" cy="250" r="60.822" fill="#f0ef94" stroke="#ededed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6513" style="shape-rendering: crispedges;"/>
+        <g transform="translate(-64.858 -82.061)" fill="#fff">
+            <path d="m356.57 303.15c-1.452 0-2.6207 1.1689-2.6207 2.6211v42.633c0 1.452 1.1687 2.6206 2.6207 2.6206h25.16v8.0498h-2.8543c-0.52783 0-0.95288 0.425-0.95288 0.95304 0 0.52777 0.42507 0.95277 0.95288 0.95277h21.959c0.52783 0 0.95288-0.425 0.95288-0.95277 0-0.52804-0.42507-0.95304-0.95288-0.95304h-2.8543v-8.0498h25.16c1.452 0 2.6207-1.1686 2.6207-2.6206v-42.633c0-1.4522-1.1686-2.6211-2.6207-2.6211zm0.71646 3.2447h65.138v41.112h-65.138z" style="shape-rendering: crispedges;"/>
+            <path d="m415.78 315.17-10.736 11.757-14.096-2.6059-10.912 10.741-9.8-4.0246-8.668 10.293 0.98604 0.82502 8.0593-9.5736 9.7195 3.9945 11.043-10.867 14.137 2.6162 11.219-12.285-0.95082-0.87035z" color="#000000" color-rendering="auto" fill-rule="evenodd" image-rendering="auto" solid-color="#000000" style="isolation: auto; mix-blend-mode: normal; text-decoration-color: rgb(0, 0, 0); text-decoration-line: none; text-decoration-style: solid; text-indent: 0px; text-transform: none; white-space: normal; shape-rendering: crispedges;"/>
+            <path d="m362.87 340.77c0.54379 0.45797 0.61348 1.2709 0.15555 1.8146-0.45792 0.54375-1.2709 0.61355-1.8147 0.15455-0.54378-0.45797-0.61347-1.2709-0.15555-1.8146 0.45792-0.54374 1.2709-0.61355 1.8147-0.15454z" fill-rule="evenodd" style="shape-rendering: crispedges;"/>
+            <path d="m371.65 331.5c0.16941 0.69056-0.25345 1.3883-0.94389 1.5578-0.69043 0.17-1.3883-0.25242-1.5577-0.94401-0.16941-0.69031 0.25345-1.3881 0.94389-1.5576 0.69043-0.17 1.3883 0.25243 1.5577 0.94376z" fill-rule="evenodd" style="shape-rendering: crispedges;"/>
+            <path d="m381.42 335.57c0.13695 0.69752-0.31807 1.3749-1.0157 1.512-0.69759 0.13652-1.3749-0.3181-1.5118-1.0159-0.13695-0.69752 0.31807-1.3747 1.0157-1.5117 0.69759-0.13651 1.3749 0.31811 1.5118 1.0156z" fill-rule="evenodd" style="shape-rendering: crispedges;"/>
+            <path d="m392.37 324.64c0.20814 0.67975-0.17462 1.4004-0.85437 1.6086-0.67976 0.20863-1.4004-0.17515-1.6085-0.85438-0.20815-0.67975 0.17461-1.4004 0.85436-1.6086 0.67976-0.20864 1.4004 0.17515 1.6085 0.85438z" fill-rule="evenodd" style="shape-rendering: crispedges;"/>
+            <path d="m406.47 327.22c0.22623 0.67382-0.13716 1.4046-0.81111 1.6307-0.67395 0.22666-1.4045-0.13652-1.6308-0.81111-0.22623-0.67408 0.13716-1.4046 0.8111-1.6307 0.67396-0.22667 1.4045 0.13652 1.6308 0.81111z" fill-rule="evenodd" style="shape-rendering: crispedges;"/>
+            <path d="m417.1 314.67c0.52499 0.47935 0.56203 1.2946 0.0827 1.8195-0.47935 0.52494-1.2945 0.56203-1.8195 0.0824-0.525-0.47935-0.56204-1.2943-0.0827-1.8195 0.47935-0.52494 1.2945-0.56204 1.8195-0.0824z" fill-rule="evenodd" style="shape-rendering: crispedges;"/>
+        </g>
+    </g>
+    <text x="-770.74" y="480.931" font-family="Arial" font-size="12" text-anchor="middle" style="white-space: pre; font-size: 12px;">Third-Party Apps</text>
+    <g transform="matrix(1.55547297000885, 0, 0, 1.593250036239624, -651.3931884765625, 415.1766357421875)" style="">
+        <path d="M20.3917 0.465747C20.7549 0.266763 21.2108 0.399958 21.4097 0.763247C22.4242 2.61541 23.0007 4.7414 23.0007 6.9998C23.0007 9.2582 22.4242 11.3842 21.4097 13.2364C21.2108 13.7328 20.3917 13.5339C20.0284 13.3349 19.8952 12.8791 20.0942 12.5158C20.9907 10.8789 21.5007 9.00006 21.5007 6.9998C21.5007 4.99955 20.9907 3.12066 20.0942 1.48383C19.8952 1.12054 20.0284 0.66473 20.3917 0.465747ZM17.2903 3.06075C17.6709 2.89745 18.1119 3.07365 18.2752 3.45432C18.7424 4.54329 19.0007 5.74234 19.0007 6.99978C19.0007 8.25721 18.7424 9.45626 18.2752 10.5452C18.1119 10.9259 17.6709 11.1021 17.2903 10.9388C16.9096 10.7755 16.7334 10.3345 16.8967 9.95386C17.2852 9.0483 17.5007 8.05017 17.5007 6.99978C17.5007 5.94938 17.2852 4.95125 16.8967 4.04569C16.7334 3.66502 16.9096 3.22405 17.2903 3.06075ZM18.0034 16.2486C18.0034 15.0066 16.9966 13.9997 15.7545 13.9997H4.25278C3.01076 13.9997 2.00391 15.0066 2.00391 16.2486V16.8262C2.00391 17.719 2.32242 18.5825 2.90219 19.2614C4.46849 21.0957 6.8545 22.0008 10.0004 22.0008C13.1457 22.0008 15.5329 21.096 17.1023 19.2625C17.6838 18.5831 18.0034 17.7183 18.0034 16.824V16.2486ZM4.25278 15.4997H15.7545C16.1681 15.4997 16.5034 15.835 16.5034 16.2486V16.824C16.5034 17.3606 16.3117 17.8795 15.9627 18.2871C14.7063 19.755 12.7387 20.5008 10.0004 20.5008C7.26206 20.5008 5.29618 19.7551 4.04287 18.2874C3.69502 17.88 3.50391 17.3619 3.50391 16.8262V16.2486C3.50391 15.835 3.83919 15.4997 4.25278 15.4997ZM15.0004 7.0044C15.0004 4.24297 12.7618 2.0044 10.0004 2.0044C7.23894 2.0044 5.00036 4.24297 5.00036 7.0044C5.00036 9.76582 7.23894 12.0044 10.0004 12.0044C12.7618 12.0044 15.0004 9.76582 15.0004 7.0044ZM6.50036 7.0044C6.50036 5.0714 8.06737 3.5044 10.0004 3.5044C11.9334 3.5044 13.5004 5.0714 13.5004 7.0044C13.5004 8.93739 11.9334 10.5044 10.0004 10.5044C8.06737 10.5044 6.50036 8.93739 6.50036 7.0044Z" fill="#212121"/>
+    </g>
+    <line x1="-485.14" y1="674.007" x2="-635.7" y2="751.709" stroke-width="2" marker-end="url(#arrowhead)" style="stroke: rgb(253, 139, 0);"/>
+    <line x1="-481.9" y1="826.389" x2="-634.11" y2="765.221" stroke-width="2" marker-end="url(#arrowhead)" style="stroke: rgb(253, 139, 0);"/>
+    <line x1="-1075.9" y1="723.457" x2="-1076.6" y2="632.681" stroke-width="2" marker-end="url(#arrowhead)" style="stroke: rgb(2, 121, 215); transform-origin: -1076.25px 678.069px;" transform="matrix(-1, 0, 0, -1, 0, 0)"/>
+    <rect x="-936.43" y="407.936" width="29.075" height="36.467" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);"/>
+    <rect x="-932.75" y="415.079" width="19.087" height="20.482" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+    <rect x="-924.3" y="421.443" width="2.791" height="10.866" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+    <rect x="929.638" y="426.584" width="3.198" height="6.389" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(-1, 0, 0, 1, 0, 0)"/>
+    <rect x="-923.05" y="417.965" width="7.629" height="5.224" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+    <rect x="-915.3" y="427.853" width="1.655" height="4.988" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+    <g transform="matrix(1.615894079208374, 0, 0, 1.6404720544815063, -1025.2103271484375, 740.1637573242188)" style="">
+        <path d="M14.6102 2.47047L14.5334 2.4031C14.2394 2.17855 13.818 2.20101 13.5495 2.47047L13.4824 2.54755C13.2587 2.84259 13.281 3.26552 13.5495 3.53498L15.521 5.5118H8.5L8.26687 5.51592C4.785 5.63911 2 8.51085 2 12.0354C2 13.7259 2.6407 15.2663 3.6917 16.4252L3.76407 16.4947C3.89496 16.6065 4.06463 16.674 4.25 16.674C4.66421 16.674 5 16.337 5 15.9213C5 15.7481 4.9417 15.5885 4.84373 15.4613L4.64439 15.2306C3.92953 14.3627 3.5 13.2494 3.5 12.0354C3.5 9.26396 5.73858 7.01725 8.5 7.01725H15.381L13.5495 8.85754L13.4824 8.93463C13.2587 9.22967 13.281 9.6526 13.5495 9.92206C13.8424 10.216 14.3173 10.216 14.6102 9.92206L17.7922 6.72852L17.8593 6.65144C18.083 6.3564 18.0606 5.93347 17.7922 5.66401L14.6102 2.47047ZM20.23 7.57108C20.0999 7.46224 19.9326 7.39677 19.75 7.39677C19.3358 7.39677 19 7.73378 19 8.14949C19 8.33618 19.0677 8.507 19.1791 8.63722C19.9992 9.53109 20.5 10.7246 20.5 12.0354C20.5 14.8069 18.2614 17.0536 15.5 17.0536H8.558L10.4634 15.1425L10.5365 15.0573C10.7339 14.7897 10.7319 14.4206 10.5305 14.155L10.4634 14.0779L10.3785 14.0045C10.1119 13.8065 9.74409 13.8085 9.47951 14.0106L9.40271 14.0779L6.22073 17.2715L6.14756 17.3566C5.95023 17.6242 5.95224 17.9934 6.15361 18.2589L6.22073 18.336L9.40271 21.5295L9.48683 21.6024C9.78044 21.8211 10.1971 21.7968 10.4634 21.5295C10.7319 21.2601 10.7542 20.8371 10.5305 20.5421L10.4634 20.465L8.564 18.559H15.5L15.7331 18.5549C19.215 18.4317 22 15.56 22 12.0354C22 10.342 21.3571 8.79923 20.3029 7.63965L20.23 7.57108Z" fill="#212121"/>
+    </g>
+    <g transform="matrix(1.615894079208374, 0, 0, 1.6404720544815063, -887.9177856445312, 741.7849731445312)" style="">
+        <path d="M14.6102 2.47047L14.5334 2.4031C14.2394 2.17855 13.818 2.20101 13.5495 2.47047L13.4824 2.54755C13.2587 2.84259 13.281 3.26552 13.5495 3.53498L15.521 5.5118H8.5L8.26687 5.51592C4.785 5.63911 2 8.51085 2 12.0354C2 13.7259 2.6407 15.2663 3.6917 16.4252L3.76407 16.4947C3.89496 16.6065 4.06463 16.674 4.25 16.674C4.66421 16.674 5 16.337 5 15.9213C5 15.7481 4.9417 15.5885 4.84373 15.4613L4.64439 15.2306C3.92953 14.3627 3.5 13.2494 3.5 12.0354C3.5 9.26396 5.73858 7.01725 8.5 7.01725H15.381L13.5495 8.85754L13.4824 8.93463C13.2587 9.22967 13.281 9.6526 13.5495 9.92206C13.8424 10.216 14.3173 10.216 14.6102 9.92206L17.7922 6.72852L17.8593 6.65144C18.083 6.3564 18.0606 5.93347 17.7922 5.66401L14.6102 2.47047ZM20.23 7.57108C20.0999 7.46224 19.9326 7.39677 19.75 7.39677C19.3358 7.39677 19 7.73378 19 8.14949C19 8.33618 19.0677 8.507 19.1791 8.63722C19.9992 9.53109 20.5 10.7246 20.5 12.0354C20.5 14.8069 18.2614 17.0536 15.5 17.0536H8.558L10.4634 15.1425L10.5365 15.0573C10.7339 14.7897 10.7319 14.4206 10.5305 14.155L10.4634 14.0779L10.3785 14.0045C10.1119 13.8065 9.74409 13.8085 9.47951 14.0106L9.40271 14.0779L6.22073 17.2715L6.14756 17.3566C5.95023 17.6242 5.95224 17.9934 6.15361 18.2589L6.22073 18.336L9.40271 21.5295L9.48683 21.6024C9.78044 21.8211 10.1971 21.7968 10.4634 21.5295C10.7319 21.2601 10.7542 20.8371 10.5305 20.5421L10.4634 20.465L8.564 18.559H15.5L15.7331 18.5549C19.215 18.4317 22 15.56 22 12.0354C22 10.342 21.3571 8.79923 20.3029 7.63965L20.23 7.57108Z" fill="#212121"/>
+    </g>
+</svg>

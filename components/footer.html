@@ -1,0 +1,39 @@
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <svg width="150" height="40" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+                <!-- Simplified version of the logo for footer -->
+                <text x="95" y="45" font-family="Arial" font-size="24" font-weight="bold" fill="#ffffff">Futurely</text>
+                <text x="205" y="45" font-family="Arial" font-size="24" font-weight="bold" fill="#3498db">.design</text>
+            </svg>
+        </div>
+        <div class="footer-links">
+            <a href="/index.html">Home</a>
+            <a href="#ideas">Ideas</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Futurely.design. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Disqus Comments Script for concept pages -->
+<script>
+    var disqus_config = function () {
+        this.page.url = window.location.href;
+        this.page.identifier = window.location.pathname;
+    };
+
+    // Load Disqus if the thread element exists
+    if (document.getElementById('disqus_thread')) {
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://futurely-design.disqus.com/embed.js'; // Replace with your Disqus shortname
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    }
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

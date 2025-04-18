@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load components first
     loadComponents().then(() => {
         // Then initialize functionality
+        adjustLinkPaths();
         highlightCurrentPage();
         setupSocialSharing();
         updateVisitCounter();
@@ -17,9 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
  * @returns {Promise} - Resolves when all components are loaded
  */
 async function loadComponents() {
-    // Determine base path (different for main page vs. concept pages)
-    const isConceptPage = window.location.pathname.includes('/concepts/');
-    const basePath = isConceptPage ? '../components/' : 'components/';
+    // Determine base path based on the current page location
+    const basePath = getBasePath();
 
     // Load all components in parallel
     const components = [
@@ -46,6 +46,58 @@ async function loadComponents() {
 }
 
 /**
+ * Determine the correct base path for loading components
+ * based on the current page location
+ */
+function getBasePath() {
+    const path = window.location.pathname;
+
+    // Check if in a subdirectory
+    if (path.includes('/me/') || path.includes('/concepts/')) {
+        return '../components/';
+    }
+
+    return 'components/';
+}
+
+/**
+ * Fix all link paths based on current location
+ */
+function adjustLinkPaths() {
+    // Get our current location to determine the path structure
+    const path = window.location.pathname;
+    const isSubdirectory = path.includes('/me/') || path.includes('/concepts/');
+
+    // Get all links in the document
+    const allLinks = document.querySelectorAll('a');
+
+    allLinks.forEach(link => {
+        const href = link.getAttribute('href');
+
+        // Skip links that are anchors, external, or mailto
+        if (!href || href.startsWith('#') || href.startsWith('http') || href.startsWith('mailto:')) {
+            return;
+        }
+
+        // If we're in a subdirectory and the link doesn't have proper relative paths
+        if (isSubdirectory) {
+            // If link goes to a root file without path adjustment
+            if (href === 'index.html') {
+                link.setAttribute('href', '../index.html');
+            }
+            // If link goes to concepts from /me/ directory
+            else if (href.startsWith('concepts/') && path.includes('/me/')) {
+                link.setAttribute('href', '../' + href);
+            }
+            // If link goes to /me/ from /concepts/ directory
+            else if (href.startsWith('me/') && path.includes('/concepts/')) {
+                link.setAttribute('href', '../' + href);
+            }
+        }
+    });
+}
+
+/**
  * Highlight the current page in navigation and sidebar
  */
 function highlightCurrentPage() {
@@ -53,12 +105,18 @@ function highlightCurrentPage() {
     const path = window.location.pathname;
     const isHome = path === '/' || path.endsWith('index.html');
     const isConceptPage = path.includes('/concepts/');
+    const isAboutPage = path.includes('/me/about.html');
 
     // Highlight the correct nav link
     if (isHome) {
-        document.querySelector('.nav-home').classList.add('active');
+        const homeLink = document.querySelector('.nav-home');
+        if (homeLink) homeLink.classList.add('active');
     } else if (isConceptPage) {
-        document.querySelector('.nav-ideas').classList.add('active');
+        const ideasLink = document.querySelector('.nav-ideas');
+        if (ideasLink) ideasLink.classList.add('active');
+    } else if (isAboutPage) {
+        const aboutLink = document.querySelector('.nav-about');
+        if (aboutLink) aboutLink.classList.add('active');
     }
 
     // Highlight the correct sidebar link if on a concept page

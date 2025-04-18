@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Futurely.design</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-970X5DHZ26"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-970X5DHZ26');
+    </script>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Initialize EmailJS with your public key
+            // You'll need to sign up at emailjs.com and replace this with your actual public key
+            emailjs.init("esneFIS9jw1ajjTzi");
+        })();
+    </script>
+
+    <style>
+        /* Additional styles specific to the contact page */
+        .contact-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .contact-header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #0078D7, #34A853);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .contact-header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        .contact-header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .contact-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .contact-card {
+            flex: 0 0 400px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+        .contact-card-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 24px;
+        }
+
+        .linkedin-icon {
+            background-color: #0077B5;
+            color: white;
+        }
+
+        .email-icon {
+            background-color: #D44638;
+            color: white;
+        }
+
+        .contact-card h3 {
+            color: #2c3e50;
+            margin: 0;
+        }
+
+        .contact-card p {
+            margin-bottom: 20px;
+            color: #7f8c8d;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .linkedin-button {
+            background-color: #0077B5;
+            color: white;
+        }
+
+        .linkedin-button:hover {
+            background-color: #005e93;
+        }
+
+        .email-button {
+            background-color: #D44638;
+            color: white;
+        }
+
+        .email-button:hover {
+            background-color: #b23121;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .submit-button {
+            background-color: #34A853;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-button:hover {
+            background-color: #2c9144;
+        }
+
+        .additional-info {
+            text-align: center;
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .form-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            border-radius: 6px;
+            display: none;
+        }
+
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #34A853;
+            animation: spin 1s linear infinite;
+            margin-bottom: 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .success-message {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+            text-align: center;
+            display: none;
+        }
+
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+            text-align: center;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .contact-options {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact-card {
+                width: 100%;
+                max-width: 400px;
+                flex: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- Header will be loaded here -->
+<div id="header-container"></div>
+
+<div class="container">
+    <!-- Sidebar will be loaded here -->
+    <div id="sidebar-container"></div>
+
+    <!-- Main Content Area -->
+    <main class="content">
+        <section class="contact-container">
+            <div class="contact-header">
+                <h1>Let's Connect</h1>
+                <p>I'm always interested in discussing innovative ideas, technology concepts, and potential collaborations.</p>
+            </div>
+
+            <div class="contact-options">
+                <div class="contact-card">
+                    <div class="contact-card-header">
+                        <div class="contact-icon linkedin-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <h3>Connect on LinkedIn</h3>
+                    </div>
+
+                    <p>Let's build our professional network. Connect with me on LinkedIn for updates on my projects, articles, and career insights.</p>
+
+                    <a href="https://www.linkedin.com/in/manojuikey/" target="_blank" class="contact-button linkedin-button">
+                        <i class="fab fa-linkedin-in"></i> View LinkedIn Profile
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-header">
+                        <div class="contact-icon email-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Send Me a Message</h3>
+                    </div>
+
+                    <p>Have a question or want to discuss something? Fill out the form below and I'll get back to you as soon as possible.</p>
+
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-overlay" id="form-overlay">
+                            <div class="spinner"></div>
+                            <p>Sending your message...</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button" id="submit-button">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+
+                        <div class="success-message" id="success-message">
+                            <i class="fas fa-check-circle"></i> Thank you for your message! I'll get back to you soon.
+                        </div>
+
+                        <div class="error-message" id="error-message">
+                            <i class="fas fa-exclamation-circle"></i> There was an error sending your message. Please try again later or contact me directly at manojkumar.cse@gmail.com
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="additional-info">
+                <h3>Response Time</h3>
+                <p>I typically respond to messages within 24-48 hours during business days. For urgent matters, please mention it in your subject line.</p>
+            </div>
+        </section>
+    </main>
+</div>
+
+<!-- Footer will be loaded here -->
+<div id="footer-container"></div>
+
+<!-- Contact form handling script -->
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Show loading overlay
+        document.getElementById('form-overlay').style.display = 'flex';
+
+        // Get form data
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+
+        // Create template parameters
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            subject: subject,
+            message: message,
+            to_email: 'manojkumar.cse@gmail.com' // This is for your reference only - the actual recipient is configured in EmailJS
+        };
+
+        // Send email using EmailJS
+        // You'll need to create a service and template in EmailJS and update these IDs
+        emailjs.send('service_vbwu2uk', 'template_oksyuab', templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+
+                // Hide loading overlay
+                document.getElementById('form-overlay').style.display = 'none';
+
+                // Show success message
+                document.getElementById('success-message').style.display = 'block';
+
+                // Reset the form
+                document.getElementById('contact-form').reset();
+
+                // Hide success message after 5 seconds
+                setTimeout(function() {
+                    document.getElementById('success-message').style.display = 'none';
+                }, 5000);
+            }, function(error) {
+                console.log('FAILED...', error);
+
+                // Hide loading overlay
+                document.getElementById('form-overlay').style.display = 'none';
+
+                // Show error message
+                document.getElementById('error-message').style.display = 'block';
+
+                // Hide error message after 5 seconds
+                setTimeout(function() {
+                    document.getElementById('error-message').style.display = 'none';
+                }, 5000);
+            });
+    });
+</script>
+
+<!-- Main script -->
+<script src="/script.js"></script>
+</body>
+</html>

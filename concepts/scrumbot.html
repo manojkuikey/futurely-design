@@ -44,11 +44,13 @@
             padding: 0 20px;
         }
 
-        header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #0078D7, #34A853);
             color: white;
-            padding: 1rem 0;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 30px;
         }
 
         .hero {
@@ -330,6 +332,21 @@
                 left: 0;
             }
         }
+
+        /* SVG container styles */
+        .image-container {
+            width: 100%;
+            overflow-x: auto;
+            margin-bottom: 30px;
+        }
+
+        .image-container svg {
+            width: 100%;
+            height: auto;
+            max-width: 1070px;
+            margin: 0 auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -342,17 +359,15 @@
 
     <!-- Main Content Area - This is from your original aibot.html -->
     <main class="content">
-        <section class="featured-idea concept-container">
-            <div class="hero">
-                <div class="container">
+        <section class="featured-idea">
+            <div class="header">
                     <h1>Scrumbot: The Future of Agile Team Coordination</h1>
                     <p>Enhancing productivity through AI-assisted Scrum management while preserving the human touch</p>
-                    <div style="text-align: center; margin: 2rem 0;">
-                        <img src="../images/scrumbot.svg" alt="Agentic AI Humanoid System Architecture" style="width:100%; max-width:1070px;">
-                    </div>
-                </div>
             </div>
 
+            <div class="image-container">
+                <img src="../images/scrumbot.svg" alt="Agentic AI Humanoid System Architecture" style="width:100%; max-width:1070px;">
+            </div>
             <section>
 
             <div class="container">

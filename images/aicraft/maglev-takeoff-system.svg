@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Gradients -->
+        <linearGradient id="metalGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#E0E0E0" />
+            <stop offset="50%" stop-color="#BDBDBD" />
+            <stop offset="100%" stop-color="#9E9E9E" />
+        </linearGradient>
+        <linearGradient id="runwayGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#424242" />
+            <stop offset="100%" stop-color="#212121" />
+        </linearGradient>
+        <linearGradient id="coilGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0D47A1" />
+            <stop offset="100%" stop-color="#1976D2" />
+        </linearGradient>
+        <linearGradient id="energyFieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="rgba(33, 150, 243, 0.8)" />
+            <stop offset="100%" stop-color="rgba(33, 150, 243, 0)" />
+        </linearGradient>
+        <linearGradient id="groundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#8D6E63" />
+            <stop offset="100%" stop-color="#5D4037" />
+        </linearGradient>
+
+        <!-- Filters -->
+        <filter id="energyGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="5" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+        </filter>
+        <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3" />
+        </filter>
+
+        <!-- Aircraft shape -->
+        <symbol id="aircraft" viewBox="0 0 200 100">
+            <path d="M 190,50 L 170,30 L 170,40 L 30,40 L 30,20 L 10,20 L 20,50 L 10,80 L 30,80 L 30,60 L 170,60 L 170,70 Z" fill="url(#metalGradient)" stroke="#333" stroke-width="1" />
+            <path d="M 100,42 L 100,58 L 60,65 L 60,35 Z" fill="#333" />
+            <rect x="120" y="35" width="20" height="30" rx="10" ry="10" fill="#333" />
+            <rect x="150" y="25" width="5" height="50" rx="2" ry="2" fill="#333" />
+        </symbol>
+
+        <!-- Energy pulse -->
+        <symbol id="energyPulse" viewBox="0 0 50 20">
+            <ellipse cx="25" cy="10" rx="25" ry="10" fill="url(#energyFieldGradient)" />
+        </symbol>
+
+        <!-- Power connector -->
+        <symbol id="connector" viewBox="0 0 50 30">
+            <rect x="5" y="5" width="40" height="20" rx="5" ry="5" fill="#E0E0E0" stroke="#333" stroke-width="1" />
+            <circle cx="15" cy="15" r="5" fill="#FFC107" />
+            <circle cx="35" cy="15" r="5" fill="#FFC107" />
+        </symbol>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="500" fill="#F5F5F5" />
+
+    <!-- Title -->
+    <g font-family="Arial" font-weight="bold">
+        <rect x="250" y="20" width="400" height="50" rx="10" ry="10" fill="#0066cc" opacity="0.8" />
+        <text x="450" y="55" text-anchor="middle" font-size="22" fill="white">MAGLEV TAKEOFF SYSTEM</text>
+    </g>
+
+    <!-- Cross-section view of runway -->
+    <g transform="translate(50, 150)">
+        <!-- Ground -->
+        <rect x="0" y="200" width="800" height="150" fill="url(#groundGradient)" />
+
+        <!-- Runway structure -->
+        <rect x="100" y="150" width="600" height="50" fill="url(#runwayGradient)" />
+        <rect x="100" y="150" width="600" height="5" fill="#FFF" opacity="0.3" />
+        <rect x="100" y="195" width="600" height="5" fill="#000" opacity="0.3" />
+
+        <!-- Maglev track components -->
+        <g transform="translate(150, 160)">
+            <!-- Linear motor array representation -->
+            <g>
+                <rect x="0" y="0" width="500" height="30" fill="#616161" stroke="#424242" stroke-width="1" />
+
+                <!-- Coils -->
+                <g id="coilArray">
+                    <g transform="translate(10, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                    <g transform="translate(60, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                    <g transform="translate(110, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                    <g transform="translate(160, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                    <g transform="translate(210, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                    <g transform="translate(260, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                    <g transform="translate(310, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                    <g transform="translate(360, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                    <g transform="translate(410, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                    <g transform="translate(460, 10)">
+                        <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" />
+                    </g>
+                </g>
+            </g>
+
+            <!-- Energy field animation -->
+            <g filter="url(#energyGlow)">
+                <use href="#energyPulse" x="10" y="5" width="50" height="20" opacity="0.7">
+                    <animate attributeName="x" values="10;460" dur="3s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite" />
+                </use>
+                <use href="#energyPulse" x="60" y="5" width="50" height="20" opacity="0.7">
+                    <animate attributeName="x" values="60;510" dur="3s" repeatCount="indefinite" begin="0.5s" />
+                    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite" begin="0.5s" />
+                </use>
+                <use href="#energyPulse" x="110" y="5" width="50" height="20" opacity="0.7">
+                    <animate attributeName="x" values="110;560" dur="3s" repeatCount="indefinite" begin="1s" />
+                    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite" begin="1s" />
+                </use>
+            </g>
+        </g>
+
+        <!-- Power connections -->
+        <g transform="translate(150, 190)">
+            <line x1="0" y1="10" x2="0" y2="100" stroke="#333" stroke-width="2" />
+            <line x1="500" y1="10" x2="500" y2="100" stroke="#333" stroke-width="2" />
+            <line x1="0" y1="100" x2="500" y2="100" stroke="#333" stroke-width="2" />
+            <text x="250" y="120" text-anchor="middle" font-family="Arial" font-size="12">Power Distribution Network</text>
+        </g>
+    </g>
+
+    <!-- Aircraft with landing gear on track -->
+    <g transform="translate(300, 120)">
+        <!-- Landing gear strut -->
+        <rect x="145" y="30" width="10" height="60" fill="#616161" stroke="#333" />
+
+        <!-- Aircraft body -->
+        <use href="#aircraft" width="300" height="150" x="0" y="-80" />
+
+        <!-- Aircraft interface with maglev -->
+        <g transform="translate(125, 90)">
+            <rect x="0" y="0" width="50" height="10" rx="5" ry="5" fill="#616161" stroke="#333" />
+            <use href="#connector" x="0" y="-5" width="50" height="30" />
+
+            <!-- Energy transfer animation -->
+            <g filter="url(#energyGlow)">
+                <circle cx="25" cy="5" r="15" fill="rgba(33, 150, 243, 0.3)">
+                    <animate attributeName="r" values="5;15;5" dur="2s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite" />
+                </circle>
+            </g>
+        </g>
+    </g>
+
+    <!-- Detail callouts -->
+    <g>
+        <!-- Coil detail -->
+        <g transform="translate(100, 350)">
+            <circle cx="50" cy="50" r="40" fill="white" stroke="#0066cc" stroke-width="2" filter="url(#dropShadow)" />
+            <g transform="translate(20, 30) scale(1.5)">
+                <rect width="40" height="10" rx="2" ry="2" fill="url(#coilGradient)" stroke="#333" stroke-width="0.5" />
+                <path d="M 5,5 C 5,2 10,2 10,5 C 10,8 15,8 15,5 C 15,2 20,2 20,5 C 20,8 25,8 25,5 C 25,2 30,2 30,5 C 30,8 35,8 35,5" fill="none" stroke="#FFC107" stroke-width="1" />
+            </g>
+            <text x="50" y="100" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Linear Synchronous Motor Coil</text>
+        </g>
+
+        <!-- Interface detail -->
+        <g transform="translate(700, 350)">
+            <circle cx="50" cy="50" r="40" fill="white" stroke="#0066cc" stroke-width="2" filter="url(#dropShadow)" />
+            <g transform="translate(30, 40)">
+                <use href="#connector" width="40" height="24" />
+                <path d="M 10,30 L 5,40 L 35,40 L 30,30 Z" fill="#616161" stroke="#333" />
+            </g>
+            <text x="50" y="100" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Aircraft Power Interface</text>
+        </g>
+
+        <!-- Energy flow -->
+        <g transform="translate(400, 350)">
+            <circle cx="50" cy="50" r="40" fill="white" stroke="#0066cc" stroke-width="2" filter="url(#dropShadow)" />
+            <g transform="translate(25, 40)">
+                <line x1="0" y1="0" x2="50" y2="0" stroke="#FFC107" stroke-width="5" />
+                <polygon points="40,-5 40,5 50,0" fill="#FFC107" />
+
+                <!-- Energy pulse animation -->
+                <circle cx="15" cy="0" r="5" fill="#FFC107">
+                    <animate attributeName="cx" values="5;45;5" dur="2s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+                </circle>
+            </g>
+            <text x="50" y="100" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Electromagnetic Energy Flow</text>
+        </g>
+    </g>
+
+    <!-- Directional arrow for takeoff -->
+    <g transform="translate(400, 80)">
+        <path d="M 0,0 L 200,0 L 190,-10 L 200,0 L 190,10 Z" fill="#0066cc" />
+        <text x="100" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">TAKEOFF DIRECTION</text>
+    </g>
+
+    <!-- Specifications -->
+    <g transform="translate(50, 50)" font-family="Arial" font-size="12">
+        <rect width="180" height="80" fill="white" opacity="0.7" rx="5" ry="5" filter="url(#dropShadow)" />
+        <text x="10" y="20" font-weight="bold">Specifications:</text>
+        <text x="10" y="40">- Max Speed: 300 km/h</text>
+        <text x="10" y="60">- Power: Up to 15 MW</text>
+        <text x="10" y="80">- Length: 2.5 km</text>
+    </g>
+
+    <!-- Dynamic annotations -->
+    <g font-family="Arial" font-size="12">
+        <!-- Track explanation -->
+        <g transform="translate(600, 160)">
+            <line x1="0" y1="0" x2="-50" y2="30" stroke="#333" stroke-width="1" stroke-dasharray="3,3" />
+            <rect x="0" y="-15" width="250" height="30" rx="15" ry="15" fill="white" stroke="#0066cc" filter="url(#dropShadow)" />
+            <text x="125" y="5" text-anchor="middle">Linear Synchronous Motor Array</text>
+        </g>
+
+        <!-- Aircraft power interface -->
+        <g transform="translate(500, 120)">
+            <line x1="0" y1="0" x2="-50" y2="80" stroke="#333" stroke-width="1" stroke-dasharray="3,3" />
+            <rect x="0" y="-15" width="200" height="30" rx="15" ry="15" fill="white" stroke="#0066cc" filter="url(#dropShadow)" />
+            <text x="100" y="5" text-anchor="middle">Aircraft Power Connection</text>
+        </g>
+
+        <!-- Energy field -->
+        <g transform="translate(300, 200)">
+            <line x1="0" y1="0" x2="0" y2="-30" stroke="#333" stroke-width="1" stroke-dasharray="3,3" />
+            <rect x="-100" y="0" width="200" height="30" rx="15" ry="15" fill="white" stroke="#0066cc" filter="url(#dropShadow)" />
+            <text x="0" y="20" text-anchor="middle">Electromagnetic Propulsion Field</text>
+        </g>
+    </g>
+</svg>
